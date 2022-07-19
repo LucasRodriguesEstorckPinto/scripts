@@ -1,0 +1,7 @@
+a = (input('digite um número de 0 até 9999:').strip())
+print(f'O número digitado foi {a}')
+num = a.replace('', ' ') .split()
+print(f'Unidade:{num[3]}')
+print(f'dezena:{num[2]}')
+print(f'centena:{num[1]}')
+print(f'milhar: {num[0]}')
